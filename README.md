@@ -61,3 +61,21 @@ Use Cases
 4.Track changes in web server directories to detect unauthorized access or defacement.
 5.Compliance Requirements:
 6.Meet the requirements of standards like PCI DSS that mandate file integrity monitoring.
+
+#output 
+
+PS C:\Users\Saksh\OneDrive\Desktop\cyber security> & "C:/Program Files/Python312/python.exe" "c:/Users/Saksh/OneDrive/Desktop/cyber security/intigrity.py"
+Enter the directory to monitor: path
+
+Scanning files and saving initial hashes...
+Initial scan complete. Hashes saved.
+
+Enter 'check' to monitor changes or 'exit' to quit: check
+
+Changes detected:
+Modified: []
+New: []
+Deleted: []
+
+Enter 'check' to monitor changes or 'exit' to quit: exit
+Exiting the program.
